@@ -1,0 +1,172 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.EZX_mobile"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-33
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-67
+24-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:22-64
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:5-79
+25-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:22-76
+26    <uses-permission android:name="android.permission.CAMERA" />
+26-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:5-65
+26-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:22-62
+27
+28    <uses-feature
+28-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-23:36
+29        android:name="android.hardware.camera"
+29-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-47
+30        android:required="false" />
+30-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:9-33
+31    <uses-feature
+31-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:5-26:36
+32        android:name="android.hardware.camera.autofocus"
+32-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-57
+33        android:required="false" />
+33-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:9-33
+34    <uses-feature
+34-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-29:36
+35        android:name="android.hardware.camera.front"
+35-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-53
+36        android:required="false" />
+36-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:9-33
+37    <uses-feature
+37-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-32:36
+38        android:name="android.hardware.sensor.accelerometer"
+38-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:9-61
+39        android:required="false" />
+39-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:9-33
+40    <uses-feature
+40-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-35:36
+41        android:name="android.hardware.touchscreen"
+41-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-52
+42        android:required="false" />
+42-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:9-33
+43    <uses-feature
+43-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:5-38:36
+44        android:name="android.hardware.touchscreen.multitouch"
+44-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-63
+45        android:required="false" />
+45-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:9-33
+46    <uses-feature
+46-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:5-41:36
+47        android:name="android.hardware.touchscreen.multitouch.distinct"
+47-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:9-72
+48        android:required="false" />
+48-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:9-33
+49
+50    <application
+50-->D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+51        android:debuggable="true"
+52        android:extractNativeLibs="true"
+52-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:18-50
+53        android:icon="@mipmap/app_icon"
+53-->D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+54        android:label="@string/app_name" >
+54-->D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+55        <activity
+55-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:9-64:20
+56            android:name="com.unity3d.player.UnityPlayerActivity"
+56-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-66
+57            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+57-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-194
+58            android:hardwareAccelerated="false"
+58-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-48
+59            android:launchMode="singleTask"
+59-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-44
+60            android:resizeableActivity="false"
+60-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-47
+61            android:screenOrientation="portrait"
+61-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-49
+62            android:theme="@style/UnityThemeSelector" >
+62-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-54
+63            <intent-filter>
+63-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-56:29
+64                <action android:name="android.intent.action.MAIN" />
+64-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:17-69
+64-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:25-66
+65
+66                <category android:name="android.intent.category.LAUNCHER" />
+66-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:17-77
+66-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:27-74
+67            </intent-filter>
+68
+69            <meta-data
+69-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-60:40
+70                android:name="unityplayer.UnityActivity"
+70-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:17-57
+71                android:value="true" />
+71-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:17-37
+72            <meta-data
+72-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-63:40
+73                android:name="android.notch_support"
+73-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:17-53
+74                android:value="true" />
+74-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:17-37
+75        </activity>
+76
+77        <meta-data
+77-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:9-68:33
+78            android:name="unity.splash-mode"
+78-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-45
+79            android:value="0" />
+79-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-30
+80        <meta-data
+80-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:9-71:36
+81            android:name="unity.splash-enable"
+81-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-47
+82            android:value="True" />
+82-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:13-33
+83        <meta-data
+83-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-74:36
+84            android:name="unity.launch-fullscreen"
+84-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-51
+85            android:value="True" />
+85-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-33
+86        <meta-data
+86-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:9-77:37
+87            android:name="unity.allow-resizable-window"
+87-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-56
+88            android:value="False" />
+88-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-34
+89        <meta-data
+89-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:78:9-80:50
+90            android:name="notch.config"
+90-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:79:13-40
+91            android:value="portrait|landscape" />
+91-->[:unityLibrary] D:\Y-4\ProjectCS\EZX_mobile\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:13-47
+92    </application>
+93
+94</manifest>
